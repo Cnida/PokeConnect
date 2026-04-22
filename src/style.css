@@ -38,7 +38,7 @@ header {
 
 /* Controls */
 
-.controls {
+.buttons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 4px;
@@ -53,21 +53,14 @@ button {
   background-color: var(--button);
 }
 
-.settings {
-  /* Place on top */
-  position: fixed;
-  z-index: 20;
-
-  /* Grid of 2 columns of buttons */
+#settings[open] {
+    /* Grid of 2 columns of buttons */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 10px;
   border-radius: 25px;
   
-  /* Place in the center of the screen, half size of the screen */
-  top: 25%;
-  left: 25%;
-  width: min(45vw, 50%);
+  width: min(45vw, 500px);
   max-height: 50%;
   background-color: var(--overlay);
 }

@@ -1,4 +1,5 @@
 import './style.css'
+import { PokemonClient } from 'pokenode-ts';
 
 interface Pokemon {
   id: number;
@@ -34,8 +35,15 @@ let puzzleData: Pokemon[] = [
 const victory = document.querySelector<HTMLDivElement>('#victory')!;
 const board = document.querySelector<HTMLDivElement>('#game-board')!;
 const submitBtn = document.querySelector<HTMLButtonElement>('#submit-btn')!;
-const shuffleBtn = document.querySelector<HTMLButtonElement>('#shuffle-btn')!;
 const iconsBtn = document.querySelector<HTMLButtonElement>('#icons-btn')!;
+
+const settingsDialog = document.querySelector<HTMLDialogElement>('#settings')!;
+const settingsBtn = document.querySelector<HTMLButtonElement>('#settings-btn')!;
+const shuffleBtn = document.querySelector<HTMLButtonElement>('#shuffle-btn')!;
+const closeBtn = document.querySelector<HTMLButtonElement>('#close-btn')!;
+
+const api = new PokemonClient();
+
 let unsolvedIds: number[] = [];
 let solvedIds: number[] = [];
 let selectedIds: number[] = [];
@@ -65,7 +73,6 @@ submitBtn.addEventListener('click', () => {
 });
 
 function handleCorrectGuess(groupName: string) {
-  console.log(`Nice! You found the ${groupName} group!`);
   markSelectedAsSolved();
   drawBoard();
   if (unsolvedIds.length === 0) {
@@ -78,7 +85,6 @@ function handleWin() {
 }
 
 function handleWrongGuess() {
-  console.log("Try again!");
   // Shake the tiles
   for (const id of selectedIds) {
     const element = getPokemon(id).htmlElement;
@@ -157,6 +163,20 @@ function resetSelection() {
 // Settings
 /////////////////////////////
 
+settingsBtn.addEventListener('click', () => {
+  settingsDialog.showModal();
+});
+
+closeBtn.addEventListener('click', () => {
+  settingsDialog.close();
+});
+
+settingsDialog.addEventListener('click', (e) => {
+  if (e.target === settingsDialog) {
+    settingsDialog.close();
+  }
+});
+
 iconsBtn.addEventListener('click', () => {
   useOfficialArt = !useOfficialArt;
   refreshArtwork();
@@ -207,13 +227,13 @@ async function initTileElements() {
   puzzleData.forEach(pokemon => {
     const element = document.createElement('div');
     element.classList.add('tile');
-    
+
     // Create image element
     const img = document.createElement('img');
     img.src = pokemon.spriteUrl || '';
     img.alt = pokemon.name;
     img.classList.add('pokemon-sprite');
-    
+
     element.appendChild(img);
     pokemon.htmlElement = element;
     element.addEventListener('click', () => toggleSelect(pokemon.id));
@@ -233,13 +253,20 @@ async function fetchSprites() {
 
 async function getPokemonSprite(name: string): Promise<string> {
   // Retrieve the pokemon from PokeAPI
-  const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${name.toLowerCase()}`);
-  const data = await response.json();
+  const pokemon = await api.getPokemonByName(name)
+    .catch((error) => {
+      console.error("Failed to fetch " + name, error);
+      return null;
+    });
+  if (!pokemon) {
+    console.error("Failed to fetch " + name);
+    return name;
+  }
   // Return the sprint in the chosen style
   if (useOfficialArt) {
-    return data.sprites.other['official-artwork'].front_default;
+    return pokemon.sprites.other!["official-artwork"].front_default!;
   }
-  return data.sprites.front_default;
+  return pokemon.sprites.front_default!;
 }
 
 function updateStyling(id: number) {
@@ -284,7 +311,7 @@ function drawBoard() {
   // It starts at 4, so it will immediately roll over to the next row.
   let columnCounter: number = 0;
   let rowCounter: number = 0;
-  
+
   // Build the board
   solvedIds.forEach((id) => {
     const pokemon = getPokemon(id);
@@ -299,7 +326,6 @@ function drawBoard() {
     if (pokemon.htmlElement) {
       pokemon.htmlElement.style.gridRow = "" + rowCounter;
       pokemon.htmlElement.style.gridColumn = "" + (1 + columnCounter % 4);
-      console.log("assigning " + pokemon.name + " to " + rowCounter + ", " + (1 + columnCounter % 4));
       board.appendChild(pokemon.htmlElement);
     }
   });
@@ -313,23 +339,21 @@ function drawBoard() {
     if (pokemon.htmlElement) {
       pokemon.htmlElement.style.gridRow = "" + rowCounter;
       pokemon.htmlElement.style.gridColumn = "" + (1 + columnCounter % 4);
-      console.log("assigning " + pokemon.name + " to " + rowCounter + ", " + (1 + columnCounter % 4));
       board.appendChild(pokemon.htmlElement);
     }
   });
 }
 
 function addLabel(group: string) {
-  console.log('add label');
   const element = document.createElement('div');
   element.classList.add('solved-banner');
   switch (group) {
-      case groups[0]: element.classList.add('solved1'); break;
-      case groups[1]: element.classList.add('solved2'); break;
-      case groups[2]: element.classList.add('solved3'); break;
-      case groups[3]: element.classList.add('solved4'); break;
-      default: element.classList.add('solved1');
-    }
+    case groups[0]: element.classList.add('solved1'); break;
+    case groups[1]: element.classList.add('solved2'); break;
+    case groups[2]: element.classList.add('solved3'); break;
+    case groups[3]: element.classList.add('solved4'); break;
+    default: element.classList.add('solved1');
+  }
   element.textContent = group;
   return element;
 }

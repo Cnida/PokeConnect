@@ -1,6 +1,7 @@
 # ⚡ PokeConnect
 
-A web application built with **Vite**, **HTML5**, **CSS3**, and **TypeScript**. 
+A web application built with **Vite**, **HTML5**, **CSS3**, and **TypeScript**.
+Pokemon data is obtained from [PokeAPI](https://pokeapi.co/), using the wrapper library [Pokenode-ts](https://pokenode-ts.vercel.app/)
 
 ---
 
