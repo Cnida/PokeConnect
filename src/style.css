@@ -20,10 +20,14 @@ body {
   font-family: cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--bg-color);
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding: 20px;
   margin: 0;
+  min-height: 100vh;
+}
+
+#game {
+  flex: 1;
 }
 
 /* General Text */
@@ -186,4 +190,14 @@ button {
   75% {
     transform: translateX(6%);
   }
+}
+
+/* Footer */
+footer {
+  background-color: var(--card-selected);
+  color: white;
+  font-size: x-small;
+  text-align: center;
+  width: 100%;
+  margin-top: auto;
 }
