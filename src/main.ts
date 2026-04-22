@@ -123,15 +123,11 @@ function toggleSelect(id: number) {
 
 function select(id: number) {
   selectedIds.push(id);
-
-  const element = getPokemon(id).htmlElement!;
   updateStyling(id);
 }
 
 function deselect(id: number) {
   selectedIds = selectedIds.filter(selectedId => selectedId !== id);
-
-  const element = getPokemon(id).htmlElement!;
   updateStyling(id);
 }
 
