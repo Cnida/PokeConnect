@@ -1,0 +1,189 @@
+:root {
+  /* Theme */
+  --bg-color: #e9e9e9;
+  --text-main: #000;
+  --card-bg: #d7d7d7;
+  --card-hover: #a5a5a5;
+  --card-selected: #5a5a5a;
+  --button: #d7d7d7;
+  --overlay: #5a5a5aaa;
+
+  /* Solved */
+  --solved-1: #ced09b;
+  --solved-2: #afccaf;
+  --solved-3: #b4d0dc;
+  --solved-4: #c0abc8;
+  --solved-opacity: 0.5;
+}
+
+body {
+  font-family: cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+
+/* General Text */
+
+header {
+  text-align: center
+}
+
+/* Controls */
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 4px;
+  border-radius: 10px;
+  background-color: var(--button);
+}
+
+.settings {
+  /* Place on top */
+  position: fixed;
+  z-index: 20;
+
+  /* Grid of 2 columns of buttons */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  border-radius: 25px;
+  
+  /* Place in the center of the screen, half size of the screen */
+  top: 25%;
+  left: 25%;
+  width: min(45vw, 50%);
+  max-height: 50%;
+  background-color: var(--overlay);
+}
+
+.settings button {
+  margin: 5px;
+  max-height: 100%;
+}
+
+.settings button.close-btn {
+  /* Center below other buttons */
+  grid-column: 1 / 3;
+  margin-left: 25%;
+  max-width: 50%;
+}
+
+/* Grid Container */
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  width: min(90vw, 70vh);
+}
+
+/* Solved Banner */
+
+.solved-banner {
+  /* On top of the cards */
+  grid-column: 1 / 5;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(8px);
+
+  /* Styling */
+  border-radius: 25px;
+  font-size: large;
+  text-shadow: 0 0 5px var(--overlay);
+}
+
+.solved-banner.solved1 {
+  background-color: rgb(from var(--solved-1) r g b / var(--solved-opacity));
+}
+
+.solved-banner.solved2 {
+  background-color: rgb(from var(--solved-2) r g b / var(--solved-opacity));
+}
+
+.solved-banner.solved3 {
+  background-color: rgb(from var(--solved-3) r g b / var(--solved-opacity));
+}
+
+.solved-banner.solved4 {
+  background-color: rgb(from var(--solved-4) r g b / var(--solved-opacity));
+}
+
+/* Tiles */
+
+.tile {
+  background-color: var(--card-bg);
+  border-radius: 25px;
+  display: flex;
+  cursor: pointer;
+  padding: 5px;
+  z-index: 1;
+}
+
+.tile.unselected:hover {
+  background-color: var(--card-hover);
+}
+
+.tile.selected {
+  background-color: var(--card-selected);
+}
+
+.tile.solved1 {
+  background-color: var(--solved-1);
+}
+
+.tile.solved2 {
+  background-color: var(--solved-2);
+}
+
+.tile.solved3 {
+  background-color: var(--solved-3);
+}
+
+.tile.solved4 {
+  background-color: var(--solved-4);
+}
+
+.pokemon-sprite {
+  width: 100%;
+  height: 100%;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+}
+
+/* Animations */
+
+.shake {
+  animation: shake 0.4s ease-in-out;
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-4%);
+  }
+
+  75% {
+    transform: translateX(6%);
+  }
+}
