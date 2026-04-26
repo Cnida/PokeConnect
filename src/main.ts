@@ -1,36 +1,7 @@
 import './style.css'
 import { PokemonClient } from 'pokenode-ts';
-
-interface Pokemon {
-  id: number;
-  name: string;
-  group: string;
-  spriteUrl?: string;
-  htmlElement?: HTMLElement;
-}
-
-let groups: string[] = [
-  "Fire", "Grass", "Water", "Normal"
-];
-
-let puzzleData: Pokemon[] = [
-  { id: 1, name: "Charmander", group: "Fire" },
-  { id: 2, name: "Cyndaquil", group: "Fire" },
-  { id: 3, name: "Torchic", group: "Fire" },
-  { id: 4, name: "Fuecoco", group: "Fire" },
-  { id: 5, name: "Bulbasaur", group: "Grass" },
-  { id: 6, name: "Chikorita", group: "Grass" },
-  { id: 7, name: "Treecko", group: "Grass" },
-  { id: 8, name: "Turtwig", group: "Grass" },
-  { id: 9, name: "Squirtle", group: "Water" },
-  { id: 10, name: "Totodile", group: "Water" },
-  { id: 11, name: "Empoleon", group: "Water" },
-  { id: 12, name: "Froakie", group: "Water" },
-  { id: 13, name: "Rattata", group: "Normal" },
-  { id: 14, name: "Sentret", group: "Normal" },
-  { id: 15, name: "Zigzagoon", group: "Normal" },
-  { id: 16, name: "Bidoof", group: "Normal" },
-];
+import type { Puzzle, Pokemon, Group} from './puzzleCreator';
+import {createPuzzle} from './puzzleCreator';
 
 const victory = document.querySelector<HTMLDivElement>('#victory')!;
 const board = document.querySelector<HTMLDivElement>('#game-board')!;
@@ -44,10 +15,23 @@ const closeBtn = document.querySelector<HTMLButtonElement>('#close-btn')!;
 
 const api = new PokemonClient();
 
+let puzzle: Puzzle;
 let unsolvedIds: number[] = [];
 let solvedIds: number[] = [];
 let selectedIds: number[] = [];
 let useOfficialArt = false;
+
+/////////////////////////////
+// Puzzle Builder
+/////////////////////////////
+
+function createNewPuzzle() {
+  puzzle = createPuzzle();
+  solvedIds = [];
+  selectedIds = [];
+  unsolvedIds = puzzle.pokemon.map(p => p.id);
+}
+
 
 /////////////////////////////
 // Submit
@@ -72,7 +56,7 @@ submitBtn.addEventListener('click', () => {
   }
 });
 
-function handleCorrectGuess(groupName: string) {
+function handleCorrectGuess(groupName: Group) {
   markSelectedAsSolved();
   drawBoard();
   if (unsolvedIds.length === 0) {
@@ -192,21 +176,11 @@ async function refreshArtwork() {
 /////////////////////////////
 
 function getPokemon(id: number): Pokemon {
-  const pokemon = puzzleData.find(p => p.id === id);
+  const pokemon = puzzle.pokemon.find(p => p.id === id);
   if (!pokemon) {
     throw new Error(`Pokemon with ID ${id} not found in puzzleData!`);
   }
   return pokemon;
-}
-
-/////////////////////////////
-// Puzzle Builder
-/////////////////////////////
-
-function createNewPuzzle() {
-  solvedIds = [];
-  selectedIds = [];
-  unsolvedIds = puzzleData.map(p => p.id);
 }
 
 /////////////////////////////
@@ -224,7 +198,7 @@ async function initTileElements() {
   // Wait for the sprites to be retrieved.
   await fetchSprites();
 
-  puzzleData.forEach(pokemon => {
+  puzzle.pokemon.forEach(pokemon => {
     const element = document.createElement('div');
     element.classList.add('tile');
 
@@ -243,8 +217,8 @@ async function initTileElements() {
 
 async function fetchSprites() {
   // Fetch all sprites in parallel
-  puzzleData = await Promise.all(
-    puzzleData.map(async (p) => ({
+  puzzle.pokemon = await Promise.all(
+    puzzle.pokemon.map(async (p) => ({
       ...p,
       spriteUrl: await getPokemonSprite(p.name)
     }))
@@ -280,10 +254,10 @@ function updateStyling(id: number) {
     element.classList.remove('selected');
     element.classList.remove('unselected');
     switch (getPokemon(id).group) {
-      case groups[0]: element.classList.add('solved1'); break;
-      case groups[1]: element.classList.add('solved2'); break;
-      case groups[2]: element.classList.add('solved3'); break;
-      case groups[3]: element.classList.add('solved4'); break;
+      case puzzle.groups[0]: element.classList.add('solved1'); break;
+      case puzzle.groups[1]: element.classList.add('solved2'); break;
+      case puzzle.groups[2]: element.classList.add('solved3'); break;
+      case puzzle.groups[3]: element.classList.add('solved4'); break;
       default: element.classList.add('solved1');
     }
   } else if (isSelected) {
@@ -318,7 +292,7 @@ function drawBoard() {
     columnCounter++;
     if (columnCounter % 4 === 1) {
       rowCounter++;
-      const label = addLabel(pokemon.group);
+      const label = addLabel(pokemon.group.description);
       label.style.gridRow = "" + rowCounter;
       label.style.gridColumn = "1 / 5";
       board.appendChild(label);
@@ -348,10 +322,10 @@ function addLabel(group: string) {
   const element = document.createElement('div');
   element.classList.add('solved-banner');
   switch (group) {
-    case groups[0]: element.classList.add('solved1'); break;
-    case groups[1]: element.classList.add('solved2'); break;
-    case groups[2]: element.classList.add('solved3'); break;
-    case groups[3]: element.classList.add('solved4'); break;
+    case puzzle.groups[0].name: element.classList.add('solved1'); break;
+    case puzzle.groups[1].name: element.classList.add('solved2'); break;
+    case puzzle.groups[2].name: element.classList.add('solved3'); break;
+    case puzzle.groups[3].name: element.classList.add('solved4'); break;
     default: element.classList.add('solved1');
   }
   element.textContent = group;

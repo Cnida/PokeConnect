@@ -1,0 +1,2696 @@
+[ {
+  "name" : "bulbasaur"
+}, {
+  "name" : "ivysaur"
+}, {
+  "name" : "venusaur",
+  "groups" : [ "mega", "gmax" ]
+}, {
+  "name" : "charmander"
+}, {
+  "name" : "charmeleon"
+}, {
+  "name" : "charizard",
+  "groups" : [ "mega", "gmax" ]
+}, {
+  "name" : "squirtle"
+}, {
+  "name" : "wartortle"
+}, {
+  "name" : "blastoise",
+  "groups" : [ "mega", "gmax" ]
+}, {
+  "name" : "caterpie"
+}, {
+  "name" : "metapod"
+}, {
+  "name" : "butterfree",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "weedle"
+}, {
+  "name" : "kakuna"
+}, {
+  "name" : "beedrill",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "pidgey"
+}, {
+  "name" : "pidgeotto"
+}, {
+  "name" : "pidgeot",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "rattata",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "raticate",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "spearow"
+}, {
+  "name" : "fearow"
+}, {
+  "name" : "ekans"
+}, {
+  "name" : "arbok"
+}, {
+  "name" : "pikachu",
+  "groups" : [ "fixed", "gmax" ]
+}, {
+  "name" : "raichu",
+  "groups" : [ "alola", "mega" ]
+}, {
+  "name" : "sandshrew",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "sandslash",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "nidoran-f"
+}, {
+  "name" : "nidorina"
+}, {
+  "name" : "nidoqueen"
+}, {
+  "name" : "nidoran-m"
+}, {
+  "name" : "nidorino"
+}, {
+  "name" : "nidoking"
+}, {
+  "name" : "clefairy"
+}, {
+  "name" : "clefable",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "vulpix",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "ninetales",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "jigglypuff"
+}, {
+  "name" : "wigglytuff"
+}, {
+  "name" : "zubat"
+}, {
+  "name" : "golbat"
+}, {
+  "name" : "oddish"
+}, {
+  "name" : "gloom"
+}, {
+  "name" : "vileplume"
+}, {
+  "name" : "paras"
+}, {
+  "name" : "parasect"
+}, {
+  "name" : "venonat"
+}, {
+  "name" : "venomoth"
+}, {
+  "name" : "diglett",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "dugtrio",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "meowth",
+  "groups" : [ "alola", "galar", "gmax" ]
+}, {
+  "name" : "persian",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "psyduck"
+}, {
+  "name" : "golduck"
+}, {
+  "name" : "mankey"
+}, {
+  "name" : "primeape"
+}, {
+  "name" : "growlithe",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "arcanine",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "poliwag"
+}, {
+  "name" : "poliwhirl"
+}, {
+  "name" : "poliwrath"
+}, {
+  "name" : "abra"
+}, {
+  "name" : "kadabra"
+}, {
+  "name" : "alakazam",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "machop"
+}, {
+  "name" : "machoke"
+}, {
+  "name" : "machamp",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "bellsprout"
+}, {
+  "name" : "weepinbell"
+}, {
+  "name" : "victreebel",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "tentacool"
+}, {
+  "name" : "tentacruel"
+}, {
+  "name" : "geodude",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "graveler",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "golem",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "ponyta",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "rapidash",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "slowpoke",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "slowbro",
+  "groups" : [ "mega", "galar" ]
+}, {
+  "name" : "magnemite"
+}, {
+  "name" : "magneton"
+}, {
+  "name" : "farfetchd",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "doduo"
+}, {
+  "name" : "dodrio"
+}, {
+  "name" : "seel"
+}, {
+  "name" : "dewgong"
+}, {
+  "name" : "grimer",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "muk",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "shellder"
+}, {
+  "name" : "cloyster"
+}, {
+  "name" : "gastly"
+}, {
+  "name" : "haunter"
+}, {
+  "name" : "gengar",
+  "groups" : [ "mega", "gmax" ]
+}, {
+  "name" : "onix"
+}, {
+  "name" : "drowzee"
+}, {
+  "name" : "hypno"
+}, {
+  "name" : "krabby"
+}, {
+  "name" : "kingler",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "voltorb",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "electrode",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "exeggcute"
+}, {
+  "name" : "exeggutor",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "cubone"
+}, {
+  "name" : "marowak",
+  "groups" : [ "alola" ]
+}, {
+  "name" : "hitmonlee"
+}, {
+  "name" : "hitmonchan"
+}, {
+  "name" : "lickitung"
+}, {
+  "name" : "koffing"
+}, {
+  "name" : "weezing",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "rhyhorn"
+}, {
+  "name" : "rhydon"
+}, {
+  "name" : "chansey"
+}, {
+  "name" : "tangela"
+}, {
+  "name" : "kangaskhan",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "horsea"
+}, {
+  "name" : "seadra"
+}, {
+  "name" : "goldeen"
+}, {
+  "name" : "seaking"
+}, {
+  "name" : "staryu"
+}, {
+  "name" : "starmie",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "mr-mime",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "scyther"
+}, {
+  "name" : "jynx"
+}, {
+  "name" : "electabuzz"
+}, {
+  "name" : "magmar"
+}, {
+  "name" : "pinsir",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "tauros",
+  "groups" : [ "paldea" ]
+}, {
+  "name" : "magikarp"
+}, {
+  "name" : "gyarados",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "lapras",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "ditto"
+}, {
+  "name" : "eevee",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "vaporeon"
+}, {
+  "name" : "jolteon"
+}, {
+  "name" : "flareon"
+}, {
+  "name" : "porygon"
+}, {
+  "name" : "omanyte"
+}, {
+  "name" : "omastar"
+}, {
+  "name" : "kabuto"
+}, {
+  "name" : "kabutops"
+}, {
+  "name" : "aerodactyl",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "snorlax",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "articuno",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "zapdos",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "moltres",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "dratini"
+}, {
+  "name" : "dragonair"
+}, {
+  "name" : "dragonite",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "mewtwo",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "mew"
+}, {
+  "name" : "chikorita"
+}, {
+  "name" : "bayleef"
+}, {
+  "name" : "meganium",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "cyndaquil"
+}, {
+  "name" : "quilava"
+}, {
+  "name" : "typhlosion",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "totodile"
+}, {
+  "name" : "croconaw"
+}, {
+  "name" : "feraligatr",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "sentret"
+}, {
+  "name" : "furret"
+}, {
+  "name" : "hoothoot"
+}, {
+  "name" : "noctowl"
+}, {
+  "name" : "ledyba"
+}, {
+  "name" : "ledian"
+}, {
+  "name" : "spinarak"
+}, {
+  "name" : "ariados"
+}, {
+  "name" : "crobat"
+}, {
+  "name" : "chinchou"
+}, {
+  "name" : "lanturn"
+}, {
+  "name" : "pichu"
+}, {
+  "name" : "cleffa"
+}, {
+  "name" : "igglybuff"
+}, {
+  "name" : "togepi"
+}, {
+  "name" : "togetic"
+}, {
+  "name" : "natu"
+}, {
+  "name" : "xatu"
+}, {
+  "name" : "mareep"
+}, {
+  "name" : "flaaffy"
+}, {
+  "name" : "ampharos",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "bellossom"
+}, {
+  "name" : "marill"
+}, {
+  "name" : "azumarill"
+}, {
+  "name" : "sudowoodo"
+}, {
+  "name" : "politoed"
+}, {
+  "name" : "hoppip"
+}, {
+  "name" : "skiploom"
+}, {
+  "name" : "jumpluff"
+}, {
+  "name" : "aipom"
+}, {
+  "name" : "sunkern"
+}, {
+  "name" : "sunflora"
+}, {
+  "name" : "yanma"
+}, {
+  "name" : "wooper",
+  "groups" : [ "paldea" ]
+}, {
+  "name" : "quagsire"
+}, {
+  "name" : "espeon"
+}, {
+  "name" : "umbreon"
+}, {
+  "name" : "murkrow"
+}, {
+  "name" : "slowking",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "misdreavus"
+}, {
+  "name" : "unown"
+}, {
+  "name" : "wobbuffet"
+}, {
+  "name" : "girafarig"
+}, {
+  "name" : "pineco"
+}, {
+  "name" : "forretress"
+}, {
+  "name" : "dunsparce"
+}, {
+  "name" : "gligar"
+}, {
+  "name" : "steelix",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "snubbull"
+}, {
+  "name" : "granbull"
+}, {
+  "name" : "qwilfish",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "scizor",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "shuckle"
+}, {
+  "name" : "heracross",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "sneasel",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "teddiursa"
+}, {
+  "name" : "ursaring"
+}, {
+  "name" : "slugma"
+}, {
+  "name" : "magcargo"
+}, {
+  "name" : "swinub"
+}, {
+  "name" : "piloswine"
+}, {
+  "name" : "corsola",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "remoraid"
+}, {
+  "name" : "octillery"
+}, {
+  "name" : "delibird"
+}, {
+  "name" : "mantine"
+}, {
+  "name" : "skarmory",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "houndour"
+}, {
+  "name" : "houndoom",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "kingdra"
+}, {
+  "name" : "phanpy"
+}, {
+  "name" : "donphan"
+}, {
+  "name" : "porygon2"
+}, {
+  "name" : "stantler"
+}, {
+  "name" : "smeargle"
+}, {
+  "name" : "tyrogue"
+}, {
+  "name" : "hitmontop"
+}, {
+  "name" : "smoochum"
+}, {
+  "name" : "elekid"
+}, {
+  "name" : "magby"
+}, {
+  "name" : "miltank"
+}, {
+  "name" : "blissey"
+}, {
+  "name" : "raikou"
+}, {
+  "name" : "entei"
+}, {
+  "name" : "suicune"
+}, {
+  "name" : "larvitar"
+}, {
+  "name" : "pupitar"
+}, {
+  "name" : "tyranitar",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "lugia"
+}, {
+  "name" : "ho-oh"
+}, {
+  "name" : "celebi"
+}, {
+  "name" : "treecko"
+}, {
+  "name" : "grovyle"
+}, {
+  "name" : "sceptile",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "torchic"
+}, {
+  "name" : "combusken"
+}, {
+  "name" : "blaziken",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "mudkip"
+}, {
+  "name" : "marshtomp"
+}, {
+  "name" : "swampert",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "poochyena"
+}, {
+  "name" : "mightyena"
+}, {
+  "name" : "zigzagoon",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "linoone",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "wurmple"
+}, {
+  "name" : "silcoon"
+}, {
+  "name" : "beautifly"
+}, {
+  "name" : "cascoon"
+}, {
+  "name" : "dustox"
+}, {
+  "name" : "lotad"
+}, {
+  "name" : "lombre"
+}, {
+  "name" : "ludicolo"
+}, {
+  "name" : "seedot"
+}, {
+  "name" : "nuzleaf"
+}, {
+  "name" : "shiftry"
+}, {
+  "name" : "taillow"
+}, {
+  "name" : "swellow"
+}, {
+  "name" : "wingull"
+}, {
+  "name" : "pelipper"
+}, {
+  "name" : "ralts"
+}, {
+  "name" : "kirlia"
+}, {
+  "name" : "gardevoir",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "surskit"
+}, {
+  "name" : "masquerain"
+}, {
+  "name" : "shroomish"
+}, {
+  "name" : "breloom"
+}, {
+  "name" : "slakoth"
+}, {
+  "name" : "vigoroth"
+}, {
+  "name" : "slaking"
+}, {
+  "name" : "nincada"
+}, {
+  "name" : "ninjask"
+}, {
+  "name" : "shedinja"
+}, {
+  "name" : "whismur"
+}, {
+  "name" : "loudred"
+}, {
+  "name" : "exploud"
+}, {
+  "name" : "makuhita"
+}, {
+  "name" : "hariyama"
+}, {
+  "name" : "azurill"
+}, {
+  "name" : "nosepass"
+}, {
+  "name" : "skitty"
+}, {
+  "name" : "delcatty"
+}, {
+  "name" : "sableye",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "mawile",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "aron"
+}, {
+  "name" : "lairon"
+}, {
+  "name" : "aggron",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "meditite"
+}, {
+  "name" : "medicham",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "electrike"
+}, {
+  "name" : "manectric",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "plusle"
+}, {
+  "name" : "minun"
+}, {
+  "name" : "volbeat"
+}, {
+  "name" : "illumise"
+}, {
+  "name" : "roselia"
+}, {
+  "name" : "gulpin"
+}, {
+  "name" : "swalot"
+}, {
+  "name" : "carvanha"
+}, {
+  "name" : "sharpedo",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "wailmer"
+}, {
+  "name" : "wailord"
+}, {
+  "name" : "numel"
+}, {
+  "name" : "camerupt",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "torkoal"
+}, {
+  "name" : "spoink"
+}, {
+  "name" : "grumpig"
+}, {
+  "name" : "spinda"
+}, {
+  "name" : "trapinch"
+}, {
+  "name" : "vibrava"
+}, {
+  "name" : "flygon"
+}, {
+  "name" : "cacnea"
+}, {
+  "name" : "cacturne"
+}, {
+  "name" : "swablu"
+}, {
+  "name" : "altaria",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "zangoose"
+}, {
+  "name" : "seviper"
+}, {
+  "name" : "lunatone"
+}, {
+  "name" : "solrock"
+}, {
+  "name" : "barboach"
+}, {
+  "name" : "whiscash"
+}, {
+  "name" : "corphish"
+}, {
+  "name" : "crawdaunt"
+}, {
+  "name" : "baltoy"
+}, {
+  "name" : "claydol"
+}, {
+  "name" : "lileep"
+}, {
+  "name" : "cradily"
+}, {
+  "name" : "anorith"
+}, {
+  "name" : "armaldo"
+}, {
+  "name" : "feebas"
+}, {
+  "name" : "milotic"
+}, {
+  "name" : "castform",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "kecleon"
+}, {
+  "name" : "shuppet"
+}, {
+  "name" : "banette",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "duskull"
+}, {
+  "name" : "dusclops"
+}, {
+  "name" : "tropius"
+}, {
+  "name" : "chimecho",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "absol",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "wynaut"
+}, {
+  "name" : "snorunt"
+}, {
+  "name" : "glalie",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "spheal"
+}, {
+  "name" : "sealeo"
+}, {
+  "name" : "walrein"
+}, {
+  "name" : "clamperl"
+}, {
+  "name" : "huntail"
+}, {
+  "name" : "gorebyss"
+}, {
+  "name" : "relicanth"
+}, {
+  "name" : "luvdisc"
+}, {
+  "name" : "bagon"
+}, {
+  "name" : "shelgon"
+}, {
+  "name" : "salamence",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "beldum"
+}, {
+  "name" : "metang"
+}, {
+  "name" : "metagross",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "regirock"
+}, {
+  "name" : "regice"
+}, {
+  "name" : "registeel"
+}, {
+  "name" : "latias",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "latios",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "kyogre",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "groudon",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "rayquaza",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "jirachi"
+}, {
+  "name" : "deoxys-normal",
+  "groups" : [ "change" ]
+}, {
+  "name" : "turtwig"
+}, {
+  "name" : "grotle"
+}, {
+  "name" : "torterra"
+}, {
+  "name" : "chimchar"
+}, {
+  "name" : "monferno"
+}, {
+  "name" : "infernape"
+}, {
+  "name" : "piplup"
+}, {
+  "name" : "prinplup"
+}, {
+  "name" : "empoleon"
+}, {
+  "name" : "starly"
+}, {
+  "name" : "staravia"
+}, {
+  "name" : "staraptor",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "bidoof"
+}, {
+  "name" : "bibarel"
+}, {
+  "name" : "kricketot"
+}, {
+  "name" : "kricketune"
+}, {
+  "name" : "shinx"
+}, {
+  "name" : "luxio"
+}, {
+  "name" : "luxray"
+}, {
+  "name" : "budew"
+}, {
+  "name" : "roserade"
+}, {
+  "name" : "cranidos"
+}, {
+  "name" : "rampardos"
+}, {
+  "name" : "shieldon"
+}, {
+  "name" : "bastiodon"
+}, {
+  "name" : "burmy"
+}, {
+  "name" : "wormadam-plant",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "mothim"
+}, {
+  "name" : "combee"
+}, {
+  "name" : "vespiquen"
+}, {
+  "name" : "pachirisu"
+}, {
+  "name" : "buizel"
+}, {
+  "name" : "floatzel"
+}, {
+  "name" : "cherubi"
+}, {
+  "name" : "cherrim"
+}, {
+  "name" : "shellos"
+}, {
+  "name" : "gastrodon"
+}, {
+  "name" : "ambipom"
+}, {
+  "name" : "drifloon"
+}, {
+  "name" : "drifblim"
+}, {
+  "name" : "buneary"
+}, {
+  "name" : "lopunny",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "mismagius"
+}, {
+  "name" : "honchkrow"
+}, {
+  "name" : "glameow"
+}, {
+  "name" : "purugly"
+}, {
+  "name" : "chingling"
+}, {
+  "name" : "stunky"
+}, {
+  "name" : "skuntank"
+}, {
+  "name" : "bronzor"
+}, {
+  "name" : "bronzong"
+}, {
+  "name" : "bonsly"
+}, {
+  "name" : "mime-jr"
+}, {
+  "name" : "happiny"
+}, {
+  "name" : "chatot"
+}, {
+  "name" : "spiritomb"
+}, {
+  "name" : "gible"
+}, {
+  "name" : "gabite"
+}, {
+  "name" : "garchomp",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "munchlax"
+}, {
+  "name" : "riolu"
+}, {
+  "name" : "lucario",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "hippopotas"
+}, {
+  "name" : "hippowdon"
+}, {
+  "name" : "skorupi"
+}, {
+  "name" : "drapion"
+}, {
+  "name" : "croagunk"
+}, {
+  "name" : "toxicroak"
+}, {
+  "name" : "carnivine"
+}, {
+  "name" : "finneon"
+}, {
+  "name" : "lumineon"
+}, {
+  "name" : "mantyke"
+}, {
+  "name" : "snover"
+}, {
+  "name" : "abomasnow",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "weavile"
+}, {
+  "name" : "magnezone"
+}, {
+  "name" : "lickilicky"
+}, {
+  "name" : "rhyperior"
+}, {
+  "name" : "tangrowth"
+}, {
+  "name" : "electivire"
+}, {
+  "name" : "magmortar"
+}, {
+  "name" : "togekiss"
+}, {
+  "name" : "yanmega"
+}, {
+  "name" : "leafeon"
+}, {
+  "name" : "glaceon"
+}, {
+  "name" : "gliscor"
+}, {
+  "name" : "mamoswine"
+}, {
+  "name" : "porygon-z"
+}, {
+  "name" : "gallade",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "probopass"
+}, {
+  "name" : "dusknoir"
+}, {
+  "name" : "froslass",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "rotom",
+  "groups" : [ "change" ]
+}, {
+  "name" : "uxie"
+}, {
+  "name" : "mesprit"
+}, {
+  "name" : "azelf"
+}, {
+  "name" : "dialga",
+  "groups" : [ "change" ]
+}, {
+  "name" : "palkia",
+  "groups" : [ "change" ]
+}, {
+  "name" : "heatran",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "regigigas"
+}, {
+  "name" : "giratina-altered",
+  "groups" : [ "change" ]
+}, {
+  "name" : "cresselia"
+}, {
+  "name" : "phione"
+}, {
+  "name" : "manaphy"
+}, {
+  "name" : "darkrai",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "shaymin-land",
+  "groups" : [ "change" ]
+}, {
+  "name" : "arceus"
+}, {
+  "name" : "victini"
+}, {
+  "name" : "snivy"
+}, {
+  "name" : "servine"
+}, {
+  "name" : "serperior"
+}, {
+  "name" : "tepig"
+}, {
+  "name" : "pignite"
+}, {
+  "name" : "emboar",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "oshawott"
+}, {
+  "name" : "dewott"
+}, {
+  "name" : "samurott",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "patrat"
+}, {
+  "name" : "watchog"
+}, {
+  "name" : "lillipup"
+}, {
+  "name" : "herdier"
+}, {
+  "name" : "stoutland"
+}, {
+  "name" : "purrloin"
+}, {
+  "name" : "liepard"
+}, {
+  "name" : "pansage"
+}, {
+  "name" : "simisage"
+}, {
+  "name" : "pansear"
+}, {
+  "name" : "simisear"
+}, {
+  "name" : "panpour"
+}, {
+  "name" : "simipour"
+}, {
+  "name" : "munna"
+}, {
+  "name" : "musharna"
+}, {
+  "name" : "pidove"
+}, {
+  "name" : "tranquill"
+}, {
+  "name" : "unfezant"
+}, {
+  "name" : "blitzle"
+}, {
+  "name" : "zebstrika"
+}, {
+  "name" : "roggenrola"
+}, {
+  "name" : "boldore"
+}, {
+  "name" : "gigalith"
+}, {
+  "name" : "woobat"
+}, {
+  "name" : "swoobat"
+}, {
+  "name" : "drilbur"
+}, {
+  "name" : "excadrill",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "audino",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "timburr"
+}, {
+  "name" : "gurdurr"
+}, {
+  "name" : "conkeldurr"
+}, {
+  "name" : "tympole"
+}, {
+  "name" : "palpitoad"
+}, {
+  "name" : "seismitoad"
+}, {
+  "name" : "throh"
+}, {
+  "name" : "sawk"
+}, {
+  "name" : "sewaddle"
+}, {
+  "name" : "swadloon"
+}, {
+  "name" : "leavanny"
+}, {
+  "name" : "venipede"
+}, {
+  "name" : "whirlipede"
+}, {
+  "name" : "scolipede",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "cottonee"
+}, {
+  "name" : "whimsicott"
+}, {
+  "name" : "petilil"
+}, {
+  "name" : "lilligant",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "basculin-red-striped",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "sandile"
+}, {
+  "name" : "krokorok"
+}, {
+  "name" : "krookodile"
+}, {
+  "name" : "darumaka",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "darmanitan-standard",
+  "groups" : [ "battle", "galar" ]
+}, {
+  "name" : "maractus"
+}, {
+  "name" : "dwebble"
+}, {
+  "name" : "crustle"
+}, {
+  "name" : "scraggy"
+}, {
+  "name" : "scrafty",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "sigilyph"
+}, {
+  "name" : "yamask",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "cofagrigus"
+}, {
+  "name" : "tirtouga"
+}, {
+  "name" : "carracosta"
+}, {
+  "name" : "archen"
+}, {
+  "name" : "archeops"
+}, {
+  "name" : "trubbish"
+}, {
+  "name" : "garbodor",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "zorua",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "zoroark",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "minccino"
+}, {
+  "name" : "cinccino"
+}, {
+  "name" : "gothita"
+}, {
+  "name" : "gothorita"
+}, {
+  "name" : "gothitelle"
+}, {
+  "name" : "solosis"
+}, {
+  "name" : "duosion"
+}, {
+  "name" : "reuniclus"
+}, {
+  "name" : "ducklett"
+}, {
+  "name" : "swanna"
+}, {
+  "name" : "vanillite"
+}, {
+  "name" : "vanillish"
+}, {
+  "name" : "vanilluxe"
+}, {
+  "name" : "deerling"
+}, {
+  "name" : "sawsbuck"
+}, {
+  "name" : "emolga"
+}, {
+  "name" : "karrablast"
+}, {
+  "name" : "escavalier"
+}, {
+  "name" : "foongus"
+}, {
+  "name" : "amoonguss"
+}, {
+  "name" : "frillish-male"
+}, {
+  "name" : "jellicent-male"
+}, {
+  "name" : "alomomola"
+}, {
+  "name" : "joltik"
+}, {
+  "name" : "galvantula"
+}, {
+  "name" : "ferroseed"
+}, {
+  "name" : "ferrothorn"
+}, {
+  "name" : "klink"
+}, {
+  "name" : "klang"
+}, {
+  "name" : "klinklang"
+}, {
+  "name" : "tynamo"
+}, {
+  "name" : "eelektrik"
+}, {
+  "name" : "eelektross",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "elgyem"
+}, {
+  "name" : "beheeyem"
+}, {
+  "name" : "litwick"
+}, {
+  "name" : "lampent"
+}, {
+  "name" : "chandelure",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "axew"
+}, {
+  "name" : "fraxure"
+}, {
+  "name" : "haxorus"
+}, {
+  "name" : "cubchoo"
+}, {
+  "name" : "beartic"
+}, {
+  "name" : "cryogonal"
+}, {
+  "name" : "shelmet"
+}, {
+  "name" : "accelgor"
+}, {
+  "name" : "stunfisk",
+  "groups" : [ "galar" ]
+}, {
+  "name" : "mienfoo"
+}, {
+  "name" : "mienshao"
+}, {
+  "name" : "druddigon"
+}, {
+  "name" : "golett"
+}, {
+  "name" : "golurk",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "pawniard"
+}, {
+  "name" : "bisharp"
+}, {
+  "name" : "bouffalant"
+}, {
+  "name" : "rufflet"
+}, {
+  "name" : "braviary",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "vullaby"
+}, {
+  "name" : "mandibuzz"
+}, {
+  "name" : "heatmor"
+}, {
+  "name" : "durant"
+}, {
+  "name" : "deino"
+}, {
+  "name" : "zweilous"
+}, {
+  "name" : "hydreigon"
+}, {
+  "name" : "larvesta"
+}, {
+  "name" : "volcarona"
+}, {
+  "name" : "cobalion"
+}, {
+  "name" : "terrakion"
+}, {
+  "name" : "virizion"
+}, {
+  "name" : "tornadus-incarnate",
+  "groups" : [ "change" ]
+}, {
+  "name" : "thundurus-incarnate",
+  "groups" : [ "change" ]
+}, {
+  "name" : "reshiram",
+  "groups" : [ "fusion" ]
+}, {
+  "name" : "zekrom",
+  "groups" : [ "fusion" ]
+}, {
+  "name" : "landorus-incarnate",
+  "groups" : [ "change" ]
+}, {
+  "name" : "kyurem",
+  "groups" : [ "fusion" ]
+}, {
+  "name" : "keldeo-ordinary",
+  "groups" : [ "change" ]
+}, {
+  "name" : "meloetta-aria",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "genesect"
+}, {
+  "name" : "chespin"
+}, {
+  "name" : "quilladin"
+}, {
+  "name" : "chesnaught",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "fennekin"
+}, {
+  "name" : "braixen"
+}, {
+  "name" : "delphox",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "froakie"
+}, {
+  "name" : "frogadier"
+}, {
+  "name" : "greninja",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "bunnelby"
+}, {
+  "name" : "diggersby"
+}, {
+  "name" : "fletchling"
+}, {
+  "name" : "fletchinder"
+}, {
+  "name" : "talonflame"
+}, {
+  "name" : "scatterbug"
+}, {
+  "name" : "spewpa"
+}, {
+  "name" : "vivillon"
+}, {
+  "name" : "litleo"
+}, {
+  "name" : "pyroar-male",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "flabebe"
+}, {
+  "name" : "floette",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "florges"
+}, {
+  "name" : "skiddo"
+}, {
+  "name" : "gogoat"
+}, {
+  "name" : "pancham"
+}, {
+  "name" : "pangoro"
+}, {
+  "name" : "furfrou"
+}, {
+  "name" : "espurr"
+}, {
+  "name" : "meowstic-male",
+  "groups" : [ "fixed", "mega" ]
+}, {
+  "name" : "honedge"
+}, {
+  "name" : "doublade"
+}, {
+  "name" : "aegislash-shield",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "spritzee"
+}, {
+  "name" : "aromatisse"
+}, {
+  "name" : "swirlix"
+}, {
+  "name" : "slurpuff"
+}, {
+  "name" : "inkay"
+}, {
+  "name" : "malamar",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "binacle"
+}, {
+  "name" : "barbaracle",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "skrelp"
+}, {
+  "name" : "dragalge",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "clauncher"
+}, {
+  "name" : "clawitzer"
+}, {
+  "name" : "helioptile"
+}, {
+  "name" : "heliolisk"
+}, {
+  "name" : "tyrunt"
+}, {
+  "name" : "tyrantrum"
+}, {
+  "name" : "amaura"
+}, {
+  "name" : "aurorus"
+}, {
+  "name" : "sylveon"
+}, {
+  "name" : "hawlucha",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "dedenne"
+}, {
+  "name" : "carbink"
+}, {
+  "name" : "goomy"
+}, {
+  "name" : "sliggoo",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "goodra",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "klefki"
+}, {
+  "name" : "phantump"
+}, {
+  "name" : "trevenant"
+}, {
+  "name" : "pumpkaboo-average",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "gourgeist-average",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "bergmite"
+}, {
+  "name" : "avalugg",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "noibat"
+}, {
+  "name" : "noivern"
+}, {
+  "name" : "xerneas"
+}, {
+  "name" : "yveltal"
+}, {
+  "name" : "diancie",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "hoopa",
+  "groups" : [ "change" ]
+}, {
+  "name" : "volcanion"
+}, {
+  "name" : "rowlet"
+}, {
+  "name" : "dartrix"
+}, {
+  "name" : "decidueye",
+  "groups" : [ "hisui" ]
+}, {
+  "name" : "litten"
+}, {
+  "name" : "torracat"
+}, {
+  "name" : "incineroar"
+}, {
+  "name" : "popplio"
+}, {
+  "name" : "brionne"
+}, {
+  "name" : "primarina"
+}, {
+  "name" : "pikipek"
+}, {
+  "name" : "trumbeak"
+}, {
+  "name" : "toucannon"
+}, {
+  "name" : "yungoos"
+}, {
+  "name" : "gumshoos"
+}, {
+  "name" : "grubbin"
+}, {
+  "name" : "charjabug"
+}, {
+  "name" : "vikavolt"
+}, {
+  "name" : "crabrawler"
+}, {
+  "name" : "crabominable",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "oricorio-baile",
+  "groups" : [ "change" ]
+}, {
+  "name" : "cutiefly"
+}, {
+  "name" : "ribombee"
+}, {
+  "name" : "rockruff",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "lycanroc-midday",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "wishiwashi-solo",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "mareanie"
+}, {
+  "name" : "toxapex"
+}, {
+  "name" : "mudbray"
+}, {
+  "name" : "mudsdale"
+}, {
+  "name" : "dewpider"
+}, {
+  "name" : "araquanid"
+}, {
+  "name" : "fomantis"
+}, {
+  "name" : "lurantis"
+}, {
+  "name" : "morelull"
+}, {
+  "name" : "shiinotic"
+}, {
+  "name" : "salandit"
+}, {
+  "name" : "salazzle"
+}, {
+  "name" : "stufful"
+}, {
+  "name" : "bewear"
+}, {
+  "name" : "bounsweet"
+}, {
+  "name" : "steenee"
+}, {
+  "name" : "tsareena"
+}, {
+  "name" : "comfey"
+}, {
+  "name" : "oranguru"
+}, {
+  "name" : "passimian"
+}, {
+  "name" : "wimpod"
+}, {
+  "name" : "golisopod",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "sandygast"
+}, {
+  "name" : "palossand"
+}, {
+  "name" : "pyukumuku"
+}, {
+  "name" : "type-null"
+}, {
+  "name" : "silvally"
+}, {
+  "name" : "minior-red-meteor",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "komala"
+}, {
+  "name" : "turtonator"
+}, {
+  "name" : "togedemaru"
+}, {
+  "name" : "mimikyu-disguised",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "bruxish"
+}, {
+  "name" : "drampa",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "dhelmise"
+}, {
+  "name" : "jangmo-o"
+}, {
+  "name" : "hakamo-o"
+}, {
+  "name" : "kommo-o"
+}, {
+  "name" : "tapu-koko"
+}, {
+  "name" : "tapu-lele"
+}, {
+  "name" : "tapu-bulu"
+}, {
+  "name" : "tapu-fini"
+}, {
+  "name" : "cosmog"
+}, {
+  "name" : "cosmoem"
+}, {
+  "name" : "solgaleo",
+  "groups" : [ "fusion" ]
+}, {
+  "name" : "lunala",
+  "groups" : [ "fusion" ]
+}, {
+  "name" : "nihilego"
+}, {
+  "name" : "buzzwole"
+}, {
+  "name" : "pheromosa"
+}, {
+  "name" : "xurkitree"
+}, {
+  "name" : "celesteela"
+}, {
+  "name" : "kartana"
+}, {
+  "name" : "guzzlord"
+}, {
+  "name" : "necrozma",
+  "groups" : [ "fusion" ]
+}, {
+  "name" : "magearna",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "marshadow"
+}, {
+  "name" : "poipole"
+}, {
+  "name" : "naganadel"
+}, {
+  "name" : "stakataka"
+}, {
+  "name" : "blacephalon"
+}, {
+  "name" : "zeraora",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "meltan"
+}, {
+  "name" : "melmetal",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "grookey"
+}, {
+  "name" : "thwackey"
+}, {
+  "name" : "rillaboom",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "scorbunny"
+}, {
+  "name" : "raboot"
+}, {
+  "name" : "cinderace",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "sobble"
+}, {
+  "name" : "drizzile"
+}, {
+  "name" : "inteleon",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "skwovet"
+}, {
+  "name" : "greedent"
+}, {
+  "name" : "rookidee"
+}, {
+  "name" : "corvisquire"
+}, {
+  "name" : "corviknight",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "blipbug"
+}, {
+  "name" : "dottler"
+}, {
+  "name" : "orbeetle",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "nickit"
+}, {
+  "name" : "thievul"
+}, {
+  "name" : "gossifleur"
+}, {
+  "name" : "eldegoss"
+}, {
+  "name" : "wooloo"
+}, {
+  "name" : "dubwool"
+}, {
+  "name" : "chewtle"
+}, {
+  "name" : "drednaw",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "yamper"
+}, {
+  "name" : "boltund"
+}, {
+  "name" : "rolycoly"
+}, {
+  "name" : "carkol"
+}, {
+  "name" : "coalossal",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "applin"
+}, {
+  "name" : "flapple",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "appletun",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "silicobra"
+}, {
+  "name" : "sandaconda",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "cramorant",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "arrokuda"
+}, {
+  "name" : "barraskewda"
+}, {
+  "name" : "toxel"
+}, {
+  "name" : "toxtricity-amped",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "sizzlipede"
+}, {
+  "name" : "centiskorch",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "clobbopus"
+}, {
+  "name" : "grapploct"
+}, {
+  "name" : "sinistea"
+}, {
+  "name" : "polteageist"
+}, {
+  "name" : "hatenna"
+}, {
+  "name" : "hattrem"
+}, {
+  "name" : "hatterene",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "impidimp"
+}, {
+  "name" : "morgrem"
+}, {
+  "name" : "grimmsnarl",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "obstagoon"
+}, {
+  "name" : "perrserker"
+}, {
+  "name" : "cursola"
+}, {
+  "name" : "sirfetchd"
+}, {
+  "name" : "mr-rime"
+}, {
+  "name" : "runerigus"
+}, {
+  "name" : "milcery"
+}, {
+  "name" : "alcremie",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "falinks",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "pincurchin"
+}, {
+  "name" : "snom"
+}, {
+  "name" : "frosmoth"
+}, {
+  "name" : "stonjourner"
+}, {
+  "name" : "eiscue-ice",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "indeedee-male",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "morpeko-full-belly",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "cufant"
+}, {
+  "name" : "copperajah",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "dracozolt"
+}, {
+  "name" : "arctozolt"
+}, {
+  "name" : "dracovish"
+}, {
+  "name" : "arctovish"
+}, {
+  "name" : "duraludon",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "dreepy"
+}, {
+  "name" : "drakloak"
+}, {
+  "name" : "dragapult"
+}, {
+  "name" : "zacian",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "zamazenta",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "eternatus"
+}, {
+  "name" : "kubfu"
+}, {
+  "name" : "urshifu-single-strike",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "zarude"
+}, {
+  "name" : "regieleki"
+}, {
+  "name" : "regidrago"
+}, {
+  "name" : "glastrier",
+  "groups" : [ "fusion" ]
+}, {
+  "name" : "spectrier",
+  "groups" : [ "fusion" ]
+}, {
+  "name" : "calyrex",
+  "groups" : [ "fusion" ]
+}, {
+  "name" : "wyrdeer"
+}, {
+  "name" : "kleavor"
+}, {
+  "name" : "ursaluna",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "basculegion-male",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "sneasler"
+}, {
+  "name" : "overqwil"
+}, {
+  "name" : "enamorus-incarnate",
+  "groups" : [ "change" ]
+}, {
+  "name" : "sprigatito"
+}, {
+  "name" : "floragato"
+}, {
+  "name" : "meowscarada"
+}, {
+  "name" : "fuecoco"
+}, {
+  "name" : "crocalor"
+}, {
+  "name" : "skeledirge"
+}, {
+  "name" : "quaxly"
+}, {
+  "name" : "quaxwell"
+}, {
+  "name" : "quaquaval"
+}, {
+  "name" : "lechonk"
+}, {
+  "name" : "oinkologne-male",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "tarountula"
+}, {
+  "name" : "spidops"
+}, {
+  "name" : "nymble"
+}, {
+  "name" : "lokix"
+}, {
+  "name" : "pawmi"
+}, {
+  "name" : "pawmo"
+}, {
+  "name" : "pawmot"
+}, {
+  "name" : "tandemaus"
+}, {
+  "name" : "maushold-family-of-four"
+}, {
+  "name" : "fidough"
+}, {
+  "name" : "dachsbun"
+}, {
+  "name" : "smoliv"
+}, {
+  "name" : "dolliv"
+}, {
+  "name" : "arboliva"
+}, {
+  "name" : "squawkabilly-green-plumage",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "nacli"
+}, {
+  "name" : "naclstack"
+}, {
+  "name" : "garganacl"
+}, {
+  "name" : "charcadet"
+}, {
+  "name" : "armarouge"
+}, {
+  "name" : "ceruledge"
+}, {
+  "name" : "tadbulb"
+}, {
+  "name" : "bellibolt"
+}, {
+  "name" : "wattrel"
+}, {
+  "name" : "kilowattrel"
+}, {
+  "name" : "maschiff"
+}, {
+  "name" : "mabosstiff"
+}, {
+  "name" : "shroodle"
+}, {
+  "name" : "grafaiai"
+}, {
+  "name" : "bramblin"
+}, {
+  "name" : "brambleghast"
+}, {
+  "name" : "toedscool"
+}, {
+  "name" : "toedscruel"
+}, {
+  "name" : "klawf"
+}, {
+  "name" : "capsakid"
+}, {
+  "name" : "scovillain",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "rellor"
+}, {
+  "name" : "rabsca"
+}, {
+  "name" : "flittle"
+}, {
+  "name" : "espathra"
+}, {
+  "name" : "tinkatink"
+}, {
+  "name" : "tinkatuff"
+}, {
+  "name" : "tinkaton"
+}, {
+  "name" : "wiglett"
+}, {
+  "name" : "wugtrio"
+}, {
+  "name" : "bombirdier"
+}, {
+  "name" : "finizen"
+}, {
+  "name" : "palafin-zero",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "varoom"
+}, {
+  "name" : "revavroom"
+}, {
+  "name" : "cyclizar"
+}, {
+  "name" : "orthworm"
+}, {
+  "name" : "glimmet"
+}, {
+  "name" : "glimmora",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "greavard"
+}, {
+  "name" : "houndstone"
+}, {
+  "name" : "flamigo"
+}, {
+  "name" : "cetoddle"
+}, {
+  "name" : "cetitan"
+}, {
+  "name" : "veluza"
+}, {
+  "name" : "dondozo"
+}, {
+  "name" : "tatsugiri-curly",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "annihilape"
+}, {
+  "name" : "clodsire"
+}, {
+  "name" : "farigiraf"
+}, {
+  "name" : "dudunsparce-two-segment"
+}, {
+  "name" : "kingambit"
+}, {
+  "name" : "great-tusk"
+}, {
+  "name" : "scream-tail"
+}, {
+  "name" : "brute-bonnet"
+}, {
+  "name" : "flutter-mane"
+}, {
+  "name" : "slither-wing"
+}, {
+  "name" : "sandy-shocks"
+}, {
+  "name" : "iron-treads"
+}, {
+  "name" : "iron-bundle"
+}, {
+  "name" : "iron-hands"
+}, {
+  "name" : "iron-jugulis"
+}, {
+  "name" : "iron-moth"
+}, {
+  "name" : "iron-thorns"
+}, {
+  "name" : "frigibax"
+}, {
+  "name" : "arctibax"
+}, {
+  "name" : "baxcalibur",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "gimmighoul",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "gholdengo"
+}, {
+  "name" : "wo-chien"
+}, {
+  "name" : "chien-pao"
+}, {
+  "name" : "ting-lu"
+}, {
+  "name" : "chi-yu"
+}, {
+  "name" : "roaring-moon"
+}, {
+  "name" : "iron-valiant"
+}, {
+  "name" : "koraidon"
+}, {
+  "name" : "miraidon"
+}, {
+  "name" : "walking-wake"
+}, {
+  "name" : "iron-leaves"
+}, {
+  "name" : "dipplin"
+}, {
+  "name" : "poltchageist"
+}, {
+  "name" : "sinistcha"
+}, {
+  "name" : "okidogi"
+}, {
+  "name" : "munkidori"
+}, {
+  "name" : "fezandipiti"
+}, {
+  "name" : "ogerpon",
+  "groups" : [ "change" ]
+}, {
+  "name" : "archaludon"
+}, {
+  "name" : "hydrapple"
+}, {
+  "name" : "gouging-fire"
+}, {
+  "name" : "raging-bolt"
+}, {
+  "name" : "iron-boulder"
+}, {
+  "name" : "iron-crown"
+}, {
+  "name" : "terapagos",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "pecharunt"
+}, {
+  "name" : "deoxys-attack",
+  "groups" : [ "change" ]
+}, {
+  "name" : "deoxys-defense",
+  "groups" : [ "change" ]
+}, {
+  "name" : "deoxys-speed",
+  "groups" : [ "change" ]
+}, {
+  "name" : "wormadam-sandy",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "wormadam-trash",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "shaymin-sky",
+  "groups" : [ "change" ]
+}, {
+  "name" : "giratina-origin",
+  "groups" : [ "change" ]
+}, {
+  "name" : "rotom-heat",
+  "groups" : [ "change" ]
+}, {
+  "name" : "rotom-wash",
+  "groups" : [ "change" ]
+}, {
+  "name" : "rotom-frost",
+  "groups" : [ "change" ]
+}, {
+  "name" : "rotom-fan",
+  "groups" : [ "change" ]
+}, {
+  "name" : "rotom-mow",
+  "groups" : [ "change" ]
+}, {
+  "name" : "castform-sunny",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "castform-rainy",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "castform-snowy",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "basculin-blue-striped",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "darmanitan-zen",
+  "groups" : [ "battle", "galar" ]
+}, {
+  "name" : "meloetta-pirouette",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "tornadus-therian",
+  "groups" : [ "change" ]
+}, {
+  "name" : "thundurus-therian",
+  "groups" : [ "change" ]
+}, {
+  "name" : "landorus-therian",
+  "groups" : [ "change" ]
+}, {
+  "name" : "kyurem-black",
+  "groups" : [ "fused" ]
+}, {
+  "name" : "kyurem-white",
+  "groups" : [ "fused" ]
+}, {
+  "name" : "keldeo-resolute",
+  "groups" : [ "change" ]
+}, {
+  "name" : "meowstic-female",
+  "groups" : [ "fixed", "mega" ]
+}, {
+  "name" : "aegislash-blade",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "pumpkaboo-small",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "pumpkaboo-large",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "pumpkaboo-super",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "gourgeist-small",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "gourgeist-large",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "gourgeist-super",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "floette-eternal",
+  "groups" : [ "fixed", "mega" ]
+}, {
+  "name" : "hoopa-unbound",
+  "groups" : [ "change" ]
+}, {
+  "name" : "rattata-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "raticate-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "raichu-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "sandshrew-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "sandslash-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "vulpix-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "ninetales-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "diglett-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "dugtrio-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "meowth-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "persian-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "geodude-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "graveler-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "golem-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "grimer-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "muk-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "exeggutor-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "marowak-alola",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "zygarde-10-power-construct",
+  "groups" : [ "change", "battle" ]
+}, {
+  "name" : "zygarde-50-power-construct",
+  "groups" : [ "change", "battle" ]
+}, {
+  "name" : "zygarde-complete",
+  "groups" : [ "battle", "mega" ]
+}, {
+  "name" : "oricorio-pom-pom",
+  "groups" : [ "change" ]
+}, {
+  "name" : "oricorio-pau",
+  "groups" : [ "change" ]
+}, {
+  "name" : "oricorio-sensu",
+  "groups" : [ "change" ]
+}, {
+  "name" : "lycanroc-midnight",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "wishiwashi-school",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "minior-red",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "minior-orange",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "minior-yellow",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "minior-green",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "minior-blue",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "minior-indigo",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "minior-violet",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "mimikyu-busted",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "magearna-original",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "rockruff-own-tempo",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "lycanroc-dusk",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "necrozma-dusk",
+  "groups" : [ "fused", "combat" ]
+}, {
+  "name" : "necrozma-dawn",
+  "groups" : [ "fused", "combat" ]
+}, {
+  "name" : "necrozma-ultra",
+  "groups" : [ "fused", "combat" ]
+}, {
+  "name" : "meowth-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "ponyta-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "rapidash-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "slowpoke-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "slowbro-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "farfetchd-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "weezing-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "mr-mime-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "articuno-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "zapdos-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "moltres-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "slowking-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "corsola-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "zigzagoon-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "linoone-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "darumaka-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "darmanitan-galar-standard",
+  "groups" : [ "regional", "battle" ]
+}, {
+  "name" : "darmanitan-galar-zen",
+  "groups" : [ "regional", "battle" ]
+}, {
+  "name" : "yamask-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "stunfisk-galar",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "cramorant-gulping",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "cramorant-gorging",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "toxtricity-low-key",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "eiscue-noice",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "indeedee-female",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "morpeko-hangry",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "zacian-crowned",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "zamazenta-crowned",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "urshifu-rapid-strike",
+  "groups" : [ "gmax" ]
+}, {
+  "name" : "calyrex-ice",
+  "groups" : [ "fused" ]
+}, {
+  "name" : "calyrex-shadow",
+  "groups" : [ "fused" ]
+}, {
+  "name" : "growlithe-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "arcanine-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "voltorb-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "electrode-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "typhlosion-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "qwilfish-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "sneasel-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "samurott-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "lilligant-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "zorua-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "zoroark-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "braviary-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "sliggoo-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "goodra-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "avalugg-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "decidueye-hisui",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "dialga-origin",
+  "groups" : [ "change" ]
+}, {
+  "name" : "palkia-origin",
+  "groups" : [ "change" ]
+}, {
+  "name" : "basculin-white-striped",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "basculegion-female",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "enamorus-therian",
+  "groups" : [ "change" ]
+}, {
+  "name" : "tauros-paldea-combat-breed",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "tauros-paldea-blaze-breed",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "tauros-paldea-aqua-breed",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "wooper-paldea",
+  "groups" : [ "regional" ]
+}, {
+  "name" : "oinkologne-female",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "palafin-hero",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "tatsugiri-droopy",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "tatsugiri-stretchy",
+  "groups" : [ "mega" ]
+}, {
+  "name" : "squawkabilly-blue-plumage",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "squawkabilly-yellow-plumage",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "squawkabilly-white-plumage",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "gimmighoul-roaming",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "ursaluna-bloodmoon",
+  "groups" : [ "fixed" ]
+}, {
+  "name" : "ogerpon-wellspring-mask",
+  "groups" : [ "change" ]
+}, {
+  "name" : "ogerpon-hearthflame-mask",
+  "groups" : [ "change" ]
+}, {
+  "name" : "ogerpon-cornerstone-mask",
+  "groups" : [ "change" ]
+}, {
+  "name" : "terapagos-terastal",
+  "groups" : [ "battle" ]
+}, {
+  "name" : "terapagos-stellar",
+  "groups" : [ "battle" ]
+} ]
